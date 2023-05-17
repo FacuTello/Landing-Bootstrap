@@ -1,0 +1,72 @@
+/* Header CSS */
+
+.text-platzi{
+    color: #97c93e !important;
+}
+
+#header img{
+    width: 80px;
+}
+
+/* /Header CSS*/
+
+/* Main CSS */
+
+.btn-platzi{
+    background-color: #97c93e !important;
+    color: white;
+}
+.btn-platzi:hover{
+    background-color: #82ad36;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+/* /Main CSS */
+
+/* Section Place - Time */
+
+#place-time{
+    background-color: #343a40 !important;
+    color: white;
+}
+
+#place-time img{
+    max-width: 100%;
+
+}
+
+/* /Section Place - Time */
+ /* Footer CSS */
+
+#footer{
+    background-color: #1c2028;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
